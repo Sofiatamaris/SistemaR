@@ -3,7 +3,10 @@ Descripción general
 Este sistema es una aplicación web diseñada para gestionar de manera eficiente y automatizada sistemas de riego. 
 Su interfaz intuitiva permite a los usuarios registrarse, iniciar sesión y gestionar sus estaciones de riego de forma remota.
 La plataforma aprovecha la potencia de Supabase como backend para el almacenamiento de datos, autenticación de usuarios y funciones en tiempo real, 
-mientras que React se utiliza para crear una interfaz de usuario dinámica y responsiva.
+mientras que React se utiliza para crear una interfaz de usuario dinámica y totalmente responsive. 
+(Consulte la carpeta 'front-caps' para visualizar una vista previa de la interfaz de usuario de la aplicación web.)
+
+![](https://github.com/Sofiatamaris/SistemaR/blob/main/front-caps/GestionarEstaciones.png?raw=true)
 
 Guía de Configuración y Ejecución del Sistema de Riego Inteligente
 Requisitos previos:
@@ -29,8 +32,18 @@ REACT_APP_SUPABASE_ANON_KEY=tu-clave-anonima
 Ejecuta la siguiente línea de comando para iniciar el servidor de desarrollo: npm start
 Abre tu navegador y ve a la dirección indicada en la terminal (por ejemplo, http://localhost:3000).
 
+
+
+
 Consideraciones adicionales:
+
+
+
+
 Base de datos: Asegúrate de que la estructura de la base de datos en Supabase coincida con la definida en el proyecto.
+
 Personalización: Adapta la aplicación a tus necesidades específicas, modificando el código y las configuraciones según sea necesario.
+
 Funciones: Explora las funciones de Supabase para realizar tareas más complejas, como enviar notificaciones o integrar con otros servicios.
+
 Seguridad: Protege tus credenciales de Supabase y sigue las mejores prácticas de seguridad para evitar accesos no autorizados.
