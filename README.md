@@ -2,7 +2,7 @@ Descripción general
 
 Este sistema es una aplicación web diseñada para gestionar de manera eficiente y automatizada sistemas de riego. 
 Su interfaz intuitiva permite a los usuarios registrarse, iniciar sesión y gestionar sus estaciones de riego de forma remota.
-La plataforma aprovecha la potencia de Supabase como backend para el almacenamiento de datos, autenticación de usuarios y funciones en tiempo real, 
+La plataforma aprovecha la potencia de Supabase como api y base de datos para el almacenamiento de datos, autenticación de usuarios y funciones en tiempo real, 
 mientras que React se utiliza para crear una interfaz de usuario dinámica y totalmente responsive. 
 (Consulte la carpeta 'front-caps' para visualizar una vista previa de la interfaz de usuario de la aplicación web.)
 
